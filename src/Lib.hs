@@ -1,6 +1,5 @@
 module Lib
-    ( someFunc
+    ( Point
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+type Point a = (a,a)
